@@ -1,0 +1,25 @@
+// CalendarDeskBand.idl : IDL source for CalendarDeskBand
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (CalendarDeskBand.tlb) and marshalling code.
+
+[
+	uuid(33EB8C00-F66A-493C-8607-529060FAA378),
+	version(1.0),
+	helpstring("CalendarDeskBand 1.0 Type Library")
+]
+library CalendarDeskBandLib
+{
+    importlib("stdole2.tlb");
+	[
+		uuid(1B1E01F4-6B08-44F9-A1E8-40BC40B55578),
+		helpstring("CalendarDeskBand Class")
+	]
+	coclass CalendarDeskBand
+	{
+		[default] interface IUnknown;
+	};
+
+    cpp_quote("const size_t MAX_GUID_STRING_LEN = 39;")
+};

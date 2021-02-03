@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+ 
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#include "DateFormatSettingsRes.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CALENDAR            ICON                    "Res\\Calendar.ico"
+IDI_DAY01               ICON                    "Res\\01.ico"
+IDI_DAY02               ICON                    "Res\\02.ico"
+IDI_DAY03               ICON                    "Res\\03.ico"
+IDI_DAY04               ICON                    "Res\\04.ico"
+IDI_DAY05               ICON                    "Res\\05.ico"
+IDI_DAY06               ICON                    "Res\\06.ico"
+IDI_DAY07               ICON                    "Res\\07.ico"
+IDI_DAY08               ICON                    "Res\\08.ico"
+IDI_DAY09               ICON                    "Res\\09.ico"
+IDI_DAY10               ICON                    "Res\\10.ico"
+IDI_DAY11               ICON                    "Res\\11.ico"
+IDI_DAY12               ICON                    "Res\\12.ico"
+IDI_DAY13               ICON                    "Res\\13.ico"
+IDI_DAY14               ICON                    "Res\\14.ico"
+IDI_DAY15               ICON                    "Res\\15.ico"
+IDI_DAY16               ICON                    "Res\\16.ico"
+IDI_DAY17               ICON                    "Res\\17.ico"
+IDI_DAY18               ICON                    "Res\\18.ico"
+IDI_DAY19               ICON                    "Res\\19.ico"
+IDI_DAY20               ICON                    "Res\\20.ico"
+IDI_DAY21               ICON                    "Res\\21.ico"
+IDI_DAY22               ICON                    "Res\\22.ico"
+IDI_DAY23               ICON                    "Res\\23.ico"
+IDI_DAY24               ICON                    "Res\\24.ico"
+IDI_DAY25               ICON                    "Res\\25.ico"
+IDI_DAY26               ICON                    "Res\\26.ico"
+IDI_DAY27               ICON                    "Res\\27.ico"
+IDI_DAY28               ICON                    "Res\\28.ico"
+IDI_DAY29               ICON                    "Res\\29.ico"
+IDI_DAY30               ICON                    "Res\\30.ico"
+IDI_DAY31               ICON                    "Res\\31.ico"
+#if defined(APSTUDIO_INVOKED) || defined(_DEBUG)
+#if defined(APSTUDIO_INVOKED)
+IDI_DAYBLANK$(_DEBUG)   ICON                    "Res\\Blank-16x16-16.ico"
+#else
+IDI_DAYBLANK            ICON                    "Res\\Blank-16x16-16.ico"
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_CALENDAR MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Calendar",                   IDC_CALENDAR
+        MENUITEM "&Options...",                 IDC_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "&About ...",                  IDC_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDC_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 201
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\r\n"
+    "#include ""DateFormatSettingsRes.h""\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#include ""DateFormatSettingsRes.rc""\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,0,0
+ PRODUCTVERSION 1,5,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Calendar Application"
+            VALUE "CompanyName", "Alex Blekhman"
+            VALUE "FileDescription", "Calendar Application"
+            VALUE "FileVersion", "1, 5, 0, 0"
+            VALUE "InternalName", "Calendar"
+            VALUE "LegalCopyright", "Freeware"
+            VALUE "OriginalFilename", "Calendar.exe"
+            VALUE "ProductName", "Calendar Application"
+            VALUE "ProductVersion", "1, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOGEX 0, 0, 168, 210
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calendar Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "&Transparency",IDC_STATIC,6,6,156,48
+    CONTROL         "",IDC_TRANSPARENCY,"msctls_trackbar32",TBS_AUTOTICKS | TBS_TOP | WS_TABSTOP,8,18,151,24
+    LTEXT           "0%",IDC_STATIC,15,42,12,8,0,WS_EX_TRANSPARENT
+    LTEXT           "100%",IDC_STATIC,139,42,20,8,0,WS_EX_TRANSPARENT
+    CONTROL         "&Always on top",IDC_TOPMOST,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,60,61,12
+    CONTROL         "&Display week numbers (1-52)",IDC_WEEKNUMBERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,77,109,12
+    CONTROL         "&Show calendar in taskbar",IDC_DESKBAND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,95,96,12
+    GROUPBOX        "Tooltip text",IDC_STATIC,6,116,156,60
+    EDITTEXT        IDC_TOOLTIPTEXT,10,131,148,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Format...",IDC_FORMATDATE,108,153,50,14
+    DEFPUSHBUTTON   "OK",IDOK,54,187,48,14
+    PUSHBUTTON      "Cancel",IDCANCEL,114,187,48,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESKBAND
+//
+
+IDR_DESKBAND_BIN        DESKBAND                "PFChecker.dll"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUT               "&About..."
+    IDS_ABOUTTEXT           "Calendar v1.5\r\n\r\nWritten by Alex Blekhman\r\n\r\nReport bugs to: tkfx@yahoo.com"
+    IDS_ABOUTCAPTION        "About Calendar"
+    IDS_CALENDAR            "Calendar"
+    IDS_OPTIONS             "&Options..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "DateFormatSettingsRes.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
